@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/bucket_place"
+        android:layout_width="328dp"
+        android:layout_height="39dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="#70ffffff"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bucket_address"
+        android:layout_width="329dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/bucket_place"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="0dp"
+        android:background="#70ffffff"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/bucket_address"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/bucket_place"
+        android:hint="X" />
+
+
+</RelativeLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/bucket_place"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="#70ffffff"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bucket_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:background="#70ffffff"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+</LinearLayout>-->
